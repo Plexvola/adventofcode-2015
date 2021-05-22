@@ -1,0 +1,22 @@
+name:                 AdventOfCode2015
+version:              1.0
+synopsis:             Advent of code 2015
+-- description:
+-- license:
+-- license-file:
+homepage:             https://voidling.link
+author:               Plexvola
+maintainer:           thinkplex@riseup.net
+category:
+-- copyright:
+build-type:           Simple
+-- extra-source-files:
+cabal-version:        >=1.10
+
+executable AdventOfCode2015
+  main-is:              Main.hs
+  other-modules:        Day1, Day2, Day3, Day4, Day5, Day6, Day7
+  -- other-extensions:
+  build-depends:        base >= 4.7 && < 5, text, bytestring, pureMD5, vector, split
+  hs-source-dirs:       src
+  default-language:     Haskell2010
